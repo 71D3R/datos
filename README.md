@@ -78,9 +78,9 @@
 ```sh
     java -classpath dist/solr-core-4.10.3.jar -Dauto -Drecursive org.apache.solr.util.SimplePostTool txt/
 ```
+El tiempo que tarde en completarse este comando dependera del equipo en donde sea ejecutado.
+Cuando termine mostrara un mensaje similar a este
 
-	El tiempo que tarde en completarse este comando dependera del equipo en donde sea ejecutado.
-    Cuando termine mostrara un mensaje similar a este
     ```sh
     #### files indexed.
 	COMMITting Solr index changes to http://localhost:8983/solr/update..
