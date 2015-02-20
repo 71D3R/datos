@@ -1,5 +1,6 @@
 ##REQUISITOS
 Java 1.7 o superior
+
 7zip 
 
 ##INSTALACIÓN
