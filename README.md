@@ -93,6 +93,15 @@
 Para empezar a usar el buscador basta con ir a este [link](http://localhost:8983/solr/collection1/browse) e ingresar en el cuadro de texto el dato a buscar.
 (Para abrir los archivos en una nueva pestaña presionar **Control+Click**.
 
+Cuando haya terminado utilice el siguiente comando para detener el servidor.
+###Linux & MAC OS X
 
+```sh
+bin/solr stop -all
+```
 
+###Windows
 
+```sh
+bin\solr.cmd stop -all
+```
