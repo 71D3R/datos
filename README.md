@@ -39,6 +39,7 @@
 
 	Started Solr server on port 8983 (pid=7332). Happy searching!
 	```
+    
 	Si todo salio bien, en este [link](http://localhost:8983/solr/ "solr") se podra ver el panel de administración similar a este
     ![](/solr.png)
 3. Despues de que el panel de administración se muestre correctamente, se agregaran todos los registros al buscador con el siguiente comando
@@ -64,17 +65,21 @@
     ```
 	![](/java-windows.png)
 2. Ejecutar el comando 
+
 	```sh
 	bin\start.cmd
 	```
+    
 	Si todo salio bien, en este [link](http://localhost:8983/solr/ "solr") se podra ver el panel de administración similar a este
     ![](/solr.png)
+    
 3. Despues de que el panel de administración se muestre correctamente, se agregaran todos los registros al buscador con el siguiente comando
 
 ```sh
     java -classpath dist/solr-core-4.10.3.jar -Dauto -Drecursive org.apache.solr.util.SimplePostTool txt/
 ```
-    El tiempo que tarde en completarse este comando dependera del equipo en donde sea ejecutado.
+
+	El tiempo que tarde en completarse este comando dependera del equipo en donde sea ejecutado.
     Cuando termine mostrara un mensaje similar a este
     ```sh
     #### files indexed.
