@@ -1,3 +1,8 @@
+##REQUISITOS
+Java 1.7 o superior
+
+
+
 ##INSTALACIÓN
 1. Del lado derecho seleccione **Download ZIP**.
 2. Extraerlo en la carpeta de su preferencia.
