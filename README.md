@@ -80,8 +80,7 @@
 ```
 El tiempo que tarde en completarse este comando dependera del equipo en donde sea ejecutado.
 Cuando termine mostrara un mensaje similar a este
-
-    ```sh
+	```sh
     #### files indexed.
 	COMMITting Solr index changes to http://localhost:8983/solr/update..
 	Time spent: #:##:##.###
