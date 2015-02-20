@@ -9,13 +9,13 @@
 
 ##CONFIGURACIÓN
 ###LINUX & MAC OS X
-####1. Abrir una terminal en la carpeta solr extraida anteriormente y ejecutar el comando _**ls**_, debe mostrar la siguiente estructura
+1. Abrir una terminal en la carpeta solr extraida anteriormente y ejecutar el comando _**ls**_, debe mostrar la siguiente estructura
 	```sh
 	[71d3r@pc solr-4.10.3]$ ls
 	bin          contrib  docs     licenses     LUCENE_CHANGES.txt  README.txt               txt
     CHANGES.txt  dist     example  LICENSE.txt  NOTICE.txt          	SYSTEM_REQUIREMENTS.txt  txt.7z
 	```
-####2. Ejecutar el comando 
+2. Ejecutar el comando 
 	```sh
 	bin/solr start -e cloud -noprompt
 	```
