@@ -39,7 +39,47 @@
 	```
 	Si todo salio bien, en este [link](http://localhost:8983/solr/ "solr") se podra ver el panel de administración similar a este
     ![](/solr.png)
-3. item
+3. Despues de que el panel de administración se muestre correctamente, se agregaran todos los registros al buscador con el siguiente comando
+	```sh
+    java -classpath dist/solr-core-4.10.3.jar -Dauto -Drecursive org.apache.solr.util.SimplePostTool txt/
+    ```
+    El tiempo que tarde en completarse este comando dependera del equipo en donde sea ejecutado.
+    Cuando termine mostrara un mensaje similar a este
+    ```sh
+    #### files indexed.
+	COMMITting Solr index changes to http://localhost:8983/solr/update..
+	Time spent: #:##:##.###
+    ```
+
+###WINDOWS
+1. Abrir una consola **CMD** y cambiar al directorio de **Solr**, si esta en windows 7 o superior, ejecutar la consola como administrador y asegurarse de que en el PATH de Windows se encuentre java, para eso ejecute el comando
+	```sh
+    java -version
+    javac -version
+    ```
+	![](/java-windows.png)
+2. Ejecutar el comando 
+	```sh
+	bin\start.cmd
+	```
+	Si todo salio bien, en este [link](http://localhost:8983/solr/ "solr") se podra ver el panel de administración similar a este
+    ![](/solr.png)
+3. Despues de que el panel de administración se muestre correctamente, se agregaran todos los registros al buscador con el siguiente comando
+	```sh
+    java -classpath dist/solr-core-4.10.3.jar -Dauto -Drecursive org.apache.solr.util.SimplePostTool txt/
+    ```
+    El tiempo que tarde en completarse este comando dependera del equipo en donde sea ejecutado.
+    Cuando termine mostrara un mensaje similar a este
+    ```sh
+    #### files indexed.
+	COMMITting Solr index changes to http://localhost:8983/solr/update..
+	Time spent: #:##:##.###
+    ```
+    
+##USO
+Para empezar a usar el buscador basta con ir a este [link](http://localhost:8983/solr/collection1/browse) e ingresar en el cuadro de texto el dato a buscar.
+(Para abrir los archivos en una nueva pestaña presionar **Control+Click**.
+
 
 
 
