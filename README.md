@@ -13,7 +13,7 @@
 	```sh
 	[71d3r@pc solr-4.10.3]$ ls
 	bin          contrib  docs     licenses     LUCENE_CHANGES.txt  README.txt               txt
-CHANGES.txt  dist     example  LICENSE.txt  NOTICE.txt          	SYSTEM_REQUIREMENTS.txt  txt.7z
+    CHANGES.txt  dist     example  LICENSE.txt  NOTICE.txt          	SYSTEM_REQUIREMENTS.txt  txt.7z
 	```
 ####2. Ejecutar el comando 
 	```sh
