@@ -10,12 +10,14 @@
 ##CONFIGURACIÓN
 ###LINUX & MAC OS X
 1. Abrir una terminal en la carpeta solr extraida anteriormente y ejecutar el comando _**ls**_, debe mostrar la siguiente estructura
+
 	```sh
 	[71d3r@pc solr-4.10.3]$ ls
 	bin          contrib  docs     licenses     LUCENE_CHANGES.txt  README.txt               txt
     CHANGES.txt  dist     example  LICENSE.txt  NOTICE.txt          	SYSTEM_REQUIREMENTS.txt  txt.7z
 	```
 2. Ejecutar el comando 
+
 	```sh
 	bin/solr start -e cloud -noprompt
 	```
@@ -40,11 +42,13 @@
 	Si todo salio bien, en este [link](http://localhost:8983/solr/ "solr") se podra ver el panel de administración similar a este
     ![](/solr.png)
 3. Despues de que el panel de administración se muestre correctamente, se agregaran todos los registros al buscador con el siguiente comando
+
 	```sh
     java -classpath dist/solr-core-4.10.3.jar -Dauto -Drecursive org.apache.solr.util.SimplePostTool txt/
     ```
     El tiempo que tarde en completarse este comando dependera del equipo en donde sea ejecutado.
     Cuando termine mostrara un mensaje similar a este
+    
     ```sh
     #### files indexed.
 	COMMITting Solr index changes to http://localhost:8983/solr/update..
