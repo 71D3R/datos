@@ -65,6 +65,7 @@
 	Si todo salio bien, en este [link](http://localhost:8983/solr/ "solr") se podra ver el panel de administración similar a este
     ![](/solr.png)
 3. Despues de que el panel de administración se muestre correctamente, se agregaran todos los registros al buscador con el siguiente comando
+
 	```sh
     java -classpath dist/solr-core-4.10.3.jar -Dauto -Drecursive org.apache.solr.util.SimplePostTool txt/
     ```
