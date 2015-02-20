@@ -52,7 +52,8 @@
     ```
 
 ###WINDOWS
-1. Abrir una consola **CMD** y cambiar al directorio de **Solr**, si esta en windows 7 o superior, ejecutar la consola como administrador y asegurarse de que en el PATH de Windows se encuentre java, para eso ejecute el comando
+1. Abrir una consola **CMD** y cambiar al directorio de **Solr**, si esta en windows 7 o superior, ejecutar la consola como administrador y asegurarse de que en el PATH de Windows se encuentre java, para eso ejecute el comando.
+
 	```sh
     java -version
     javac -version
