@@ -64,6 +64,8 @@
     javac -version
     ```
 	![](/java-windows.png)
+	
+	Si el mensaje no es similar al mostrado en la imagen utilice [esta guia](https://www.java.com/es/download/help/path.xml "Agregar Java)" para agregar Java al PATH de Windows
 2. Ejecutar el comando 
 
 	```sh
