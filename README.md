@@ -81,11 +81,9 @@
 El tiempo que tarde en completarse este comando dependera del equipo en donde sea ejecutado.
 Cuando termine mostrara un mensaje similar a este
 
-	```sh
-    #### files indexed.
+	#### files indexed.
 	COMMITting Solr index changes to http://localhost:8983/solr/update..
 	Time spent: #:##:##.###
-    ```
     
 ##USO
 Para empezar a usar el buscador basta con ir a este [link](http://localhost:8983/solr/collection1/browse) e ingresar en el cuadro de texto el dato a buscar.
