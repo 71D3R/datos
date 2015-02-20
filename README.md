@@ -76,7 +76,7 @@
 3. Despues de que el panel de administración se muestre correctamente, se agregaran todos los registros al buscador con el siguiente comando
 
 	```sh
-    	java -classpath dist/solr-core-4.10.3.jar -Dauto -Drecursive org.apache.solr.util.SimplePostTool txt/
+    java -classpath dist\solr-core-4.10.3.jar -Dauto -Drecursive org.apache.solr.util.SimplePostTool txt\
 	```
 	El tiempo que tarde en completarse este comando dependera del equipo en donde sea ejecutado.
 	Cuando termine mostrara un mensaje similar a este
