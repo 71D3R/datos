@@ -73,7 +73,7 @@
 2. Ejecutar el comando 
 
 	```sh
-	bin\start.cmd
+	bin\solr.cmd start -e cloud -noprompt
 	```
     
 	Si todo salio bien, en este [link](http://localhost:8983/solr/ "solr") se podra ver el panel de administración similar a este
