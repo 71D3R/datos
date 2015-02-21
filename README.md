@@ -73,13 +73,13 @@
 2. Ejecutar el comando 
 
 	```sh
-	bin\solr.cmd start -e cloud -noprompt
+	java -jar example\start.jar
 	```
     
 	Si todo salio bien, en este [link](http://localhost:8983/solr/ "solr") se podra ver el panel de administración similar a este
     ![](/solr.png)
     
-3. Despues de que el panel de administración se muestre correctamente, se agregaran todos los registros al buscador con el siguiente comando
+3. Despues de que el panel de administración se muestre correctamente, se agregaran todos los registros al buscador ejecutando el siguiente comando en otra ventana de terminal
 
 	```sh
     java -classpath dist\solr-core-4.10.3.jar -Dauto -Drecursive org.apache.solr.util.SimplePostTool txt\
@@ -105,7 +105,7 @@ bin/solr stop -all
 ```
 
 ###Windows
-
+Presione Control+c donde ejecuto **java -jar example\start.jar** o en una ventana nueva ejecute
 ```sh
 bin\solr.cmd stop -all
 ```
